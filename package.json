@@ -1,10 +1,10 @@
 {
-  "name": "store-module",
+  "name": "store-module-2",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test1": "echo \"Error: no test specified\" && exit 1",
-    "test2": "mocha test/**/*.test.js"
+    "test": "mocha test/**/*.test.js",
+    "start": "npmmon index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "chai": "^5.1.1",
+    "chai-http": "^5.0.0",
     "mocha": "^10.6.0",
     "sequelize-cli": "^6.6.2"
   }

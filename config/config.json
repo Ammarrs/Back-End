@@ -2,21 +2,21 @@
   "development": {
     "username": "root",
     "password": null,
-    "database": "Back-End Database",
+    "database": "store-module",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
     "password": null,
-    "database": "Back-End Database_test",
+    "database": "store-module",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
     "password": null,
-    "database": "Back-End Database",
+    "database": "store-module",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
